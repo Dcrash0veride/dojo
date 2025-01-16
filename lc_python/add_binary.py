@@ -32,6 +32,9 @@ Runtime: Beats 100%
 Memory: Beats 27.59
 
 Run is good, how to improve memory usage?
+
+*** Note *** 
+The memory consumption metric varies wildly from one execution to the next
 """
 
 class Solution:
