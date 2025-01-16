@@ -53,3 +53,20 @@ class Solution:
 
   So, not very good
   """
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digit_value = ""
+        for x in digits:
+            digit_value += str(x)
+        sum = int(digit_value) + 1
+        sum_list = [int(x) for x in str(sum)]
+        return sum_list
+
+""" Results
+
+The only change was the list comprehension...do they really improve things that much!?
+
+Beats 100% Runtime
+Same space score
+"""
